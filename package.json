@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "start": "node src/index.js",
     "dev": "env-cmd ./config/dev.env nodemon src/index.js",
     "mongo": "/c/Users/vova/mongodb/bin/mongod.exe --dbpath=/c/Users/vova/mongodb-data"
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "env-cmd": "^8.0.2",
+    "jest": "^23.6.0",
     "nodemon": "^1.18.9"
   }
 }
